@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 from setuptools import find_packages, setup
 
-NAME = 'simulation'
+NAME = 'simulator'
 DESCRIPTION = "Compare each common columns from two csv's and return comparision of each column and comparison flag for each column which is TRUE or FALSE"
 
 URL = 'https://github.com/Vijay-Takbhate-incred/simulator.git'
@@ -41,7 +41,6 @@ setup(
     url=URL,
     packages=find_packages(exclude=('tests',)),
     package_data={NAME: ['VERSION']},
-    install_requires=list_reqs(),
     extras_require={},
     include_package_data=True,
     license='MIT',
