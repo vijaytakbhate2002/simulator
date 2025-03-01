@@ -9,7 +9,7 @@ DESCRIPTION = "Compare each common columns from two csv's and return comparision
 URL = 'https://github.com/Vijay-Takbhate-incred/simulator.git'
 EMAIL = 'vijay.takbhate@incred.com'
 AUTHOR = 'Vijay Dipak Takbhate'
-REQUIRES_PYTHON = '>=3.13'
+REQUIRES_PYTHON = '>=3.10'
 
 pwd = os.path.abspath(os.path.dirname(__file__))
 
@@ -48,7 +48,7 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.13',
+        'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy'
     ],
