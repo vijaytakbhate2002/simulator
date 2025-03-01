@@ -27,7 +27,7 @@ from simulator import compareData
 
 ### Compare two CSV/Excel files
 ```python
-# Create an instance of compareData
+# Create an instance of CompareData
 comparator = compareData('file1.csv', 'file2.csv')
 
 # Access the compared dataframe
