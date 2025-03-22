@@ -120,7 +120,7 @@ class JsonOperations:
         return input_body     
 
 
-    def chageByReference(self, destination_body:dict, reference_body:dict, destination_path:str, reference_path:str) -> pd.DataFrame:
+    def chageByReference(self, destination_body:dict, reference_body:dict, destination_path:str, reference_path:str) -> dict:
         """ destination_body: The JSON or dict in which you want to change value by refering destination_path
             reference_body: The JSON or dict from which you want to read value to update into  destination_body
             destination_path: JSON or dict path to update value from 
