@@ -107,4 +107,5 @@ class CompareData:
 
         print("Comparison Done ...")
         self.compared_df = df
-        
+
+

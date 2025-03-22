@@ -1,7 +1,9 @@
 README.md
 setup.py
 simulator/__init__.py
-simulator/main.py
+simulator/api_operations.py
+simulator/compare_data.py
+simulator/json_operations.py
 simulator.egg-info/PKG-INFO
 simulator.egg-info/SOURCES.txt
 simulator.egg-info/dependency_links.txt
