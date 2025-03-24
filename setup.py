@@ -10,7 +10,7 @@ DESCRIPTION = """Compare each common columns from two csv's and return comparisi
 URL = 'https://github.com/Vijay-Takbhate-incred/simulator.git'
 EMAIL = 'vijay.takbhate@incred.com'
 AUTHOR = 'Vijay Dipak Takbhate'
-REQUIRES_PYTHON = '>=3.13'
+REQUIRES_PYTHON = '>=3.10'
 
 pwd = os.path.abspath(os.path.dirname(__file__))
 
