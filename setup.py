@@ -10,7 +10,7 @@ DESCRIPTION = """Compare each common columns from two csv's and return comparisi
 URL = 'https://github.com/Vijay-Takbhate-incred/simulator.git'
 EMAIL = 'vijay.takbhate@incred.com'
 AUTHOR = 'Vijay Dipak Takbhate'
-REQUIRES_PYTHON = '>=3.10'
+REQUIRES_PYTHON = '>=3.9'
 
 pwd = os.path.abspath(os.path.dirname(__file__))
 
@@ -32,7 +32,7 @@ PACKAGE_DIR = ROOT_DIR / NAME
 
 setup(
     name=NAME,
-    version="1.1.2",
+    version="1.1.3",
     description=DESCRIPTION,
     long_description=long_description,
     long_description_content_type='text/markdown',
